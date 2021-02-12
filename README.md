@@ -58,7 +58,7 @@ Algorithm
 Setting this argument to 1 will trigger the Stereo BM algorithm, 2 will trigger Stereo SGBM algorithm
 
 
-###Output Mode
+### Output Mode
 1 will trigger the script to open an image of the output. 0 otherwise. Use 0 while automating to prevent multiple windows opening.
 
 ```
@@ -66,12 +66,12 @@ Example:
 $ python disparity_map_dist_edit.py /path_to_rectified_images /output_path algorithm_value display_mode 
 ```
 
-Disparity Map Output (SGBM)
+<p align="center">Disparity Map Output (SGBM)</p>
 
 ![depthSGBM](https://github.com/avinashpai94/Depth-Detection/blob/main/Working%20Example%20of%20Disparity%20Code/056_0/SGBM/SGBM_056_0.jpg)
 
 
-##Notes and Observations
+## Notes and Observations
 
 ###Modes
 The stereosgbm algorithm takes an additional argument to denote type of mode.
