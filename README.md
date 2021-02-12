@@ -107,8 +107,8 @@ Setting minDisparity = 12, and varying numDisp between 64-256.
 Setting numDisp = 144, and varying minDisparities between 8-64.
 
 ## Future Work
-*Implement more stereo matching algorithms and see how they differ in output.
-*While rectifying the image, the exif data is lost. This is the reason why we need to export focal length before running the disparity code. Implement a function to save the exif data while rectifying the image, and use the saved focal length to get the disparity and depth map. This is temporarily solved by copying the label to the rectified image folder.
+* Implement more stereo matching algorithms and see how they differ in output.
+* While rectifying the image, the exif data is lost. This is the reason why we need to export focal length before running the disparity code. Implement a function to save the exif data while rectifying the image, and use the saved focal length to get the disparity and depth map. This is temporarily solved by copying the label to the rectified image folder.
 
 
 ## References
