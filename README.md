@@ -73,7 +73,7 @@ $ python disparity_map_dist_edit.py /path_to_rectified_images /output_path algor
 
 ## Notes and Observations
 
-###Modes
+### Modes
 The stereosgbm algorithm takes an additional argument to denote type of mode.
 The modes are as follows; These arguments should be changed within the code.
 
