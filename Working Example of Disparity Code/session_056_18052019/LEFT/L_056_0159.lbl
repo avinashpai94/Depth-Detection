@@ -1,0 +1,41 @@
+? ''
+: GPS_alive: true
+  euler:
+  - 29.75
+  - -2.625
+  - -5.5625
+  gps:
+    alt: 0
+    date:
+      centisec: 80
+      day: 6
+      hour: 0
+      min: 33
+      month: 1
+      sec: 58
+      year: 2080
+    hdop: 0
+    lat: 0
+    lock: false
+    lon: 0
+  imu_cal:
+    accel: 3
+    gyro: 3
+    mag: 0
+    system: 0
+  imu_status:
+    error: 0
+    self_test: 15
+    system: 5
+  quat: &id001
+  - 0.965027
+  - 0.053223
+  - 0.009766
+  - -0.256592
+  temp: 23
+AZIMUTH: 30.008562166666664
+Camera: Left
+ELEVATION: 0.0
+IMU_quaternion: *id001
+'below values obtained by stereosim IMU:': see below
+f: 28.0
